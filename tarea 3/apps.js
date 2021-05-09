@@ -16,7 +16,7 @@ let contador = 0
 
 while(contador < 4 && acierto === false ){
 
-let num = parseInt(prompt('Ingrese un numero'));
+let num = parseInt(prompt('Ingrese un numero |1. Suma | 2. Resta | 3. Multiplicacion | 4. Division'));
 
 if(isNaN(num)){
     console.error("Esta mal ingrese un numero")
