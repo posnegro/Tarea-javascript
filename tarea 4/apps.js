@@ -21,8 +21,11 @@ function agregarProductos(x){
 
 //Listar productos
 function Listar(){
-    console.log(carrito)
-}
+    for(e of carrito)
+    {console.log(` ${carrito.indexOf(e) + 1} - ${e }`)}
+    }
+    
+
 // Buscar los productos
 
 function buscar(query) {
