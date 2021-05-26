@@ -12,9 +12,9 @@ console.log("----------------------------------")
     
 anotador.push(primero + segundo)
 
-for(i=0; i<=50; i++){
+for(i=0; i<=49; i++){
 
-    let random = dados(1,6) + dados(1,6) 
+    let random = dados(1,7) + dados(1,7) 
 
     if(resultado === random){
         anotador.push(random)
