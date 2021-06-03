@@ -8,6 +8,7 @@ class Contacto{
       }
 }
 function addContacto(){
+if(idnContacto <= 12){
     let namer = prompt("Ingrese el nombre del contacto").toLocaleLowerCase()
     while(namer == null ||namer == ""){        
         namer = prompt(`Vuelva a ingresar el nombre del contacto`)
@@ -17,7 +18,6 @@ function addContacto(){
         numer = parseInt(prompt("Vuelva a ingresar un numero"))
          }   
     let idnContacto = contactos.length
-if(idnContacto <= 12){
     contactos.push(new Contacto(namer, numer));
     
     localStorage.setItem("contactos",JSON.stringify(contactos));
