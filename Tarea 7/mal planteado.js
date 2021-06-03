@@ -10,7 +10,7 @@ class Productos{
         }
         this.precio = precio = parseInt(prompt("precio del producto"));
         while(isNaN( this.precio)){
-           this.precio = parseInt(prompt("vuelva a introducir el precio del producto"));
+        this.precio = parseInt(prompt("vuelva a introducir el precio del producto"));
        }
         this.item = [this.i, this.nombre, this.precio];
        carrito.push(this.item);
